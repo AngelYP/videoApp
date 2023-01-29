@@ -1,0 +1,24 @@
+.cover {
+  width: 215px;
+  height: 295px;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: inline-block;
+  transition-duration: 250ms;
+}
+
+.description {
+  width: 215px;
+  height: 295px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 15;
+  -webkit-box-orient: vertical;
+  text-justify: inter-word;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
