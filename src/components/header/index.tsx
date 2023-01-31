@@ -4,7 +4,7 @@ import style from "./header.css";
 const Header: FunctionalComponent = () => {
   return (
     <header class={style.header}>
-      <h1>Accedo app</h1>
+      <h1>Accedo</h1>
     </header>
   );
 };
